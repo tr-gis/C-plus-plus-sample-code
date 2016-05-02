@@ -34,6 +34,7 @@ void MyScene::draw() {
 	}
     
 }
+/*#################################################Codes that I added ###########################################################*/
 void MyScene::drawTree(Tree*t)
 {
 	//std::cout << "drawTree called";

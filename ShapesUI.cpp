@@ -56,9 +56,8 @@ void ShapesUI::draw() {
 		3.5 * sin(shapesUI->getYRot()),
 		3.5 * cos(shapesUI->getYRot()) * sin(shapesUI->getXRot()), 0.0, 0.0, 0.0, 0.0, 1.0, 0.0);
 
-	// ToDo: draw your shape here
-	// DO NOT put the actual draw OpenGL code here - put it in the shape class and call the draw method
-
+	
+/*#################################################Codes that I added ###########################################################*/
 	Shape Cube;
 	Cyl Cylinder;
 	Cone Cone;
